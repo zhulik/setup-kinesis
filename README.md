@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       ...
-      - uses: zhulik/setup-kinesis@v1.0.1
+      - uses: zhulik/setup-kinesis@v1.0.2
         with:
           port: 4567
       ...
